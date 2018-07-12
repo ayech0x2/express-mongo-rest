@@ -24,6 +24,11 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1",
+    "dotenv": "^6.0.0",
     "nodemon": "^1.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayech0x2/express-mongo-rest.git"
   }
 }
