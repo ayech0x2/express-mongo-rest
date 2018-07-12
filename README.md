@@ -1,1 +1,1 @@
-Express-mongo-rest is a starter kit made by me including ES6 syntax using babel.
+Express-mongo-rest is an Express RESTful api  starter kit made by me including ES6 syntax using babel.
