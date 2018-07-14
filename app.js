@@ -10,8 +10,7 @@ mongoose.connect(
 );
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-productRoutes();
-// app.use("/products", productRoutes);
+app.use( productRoutes);
 app.use("/", (req, res, next) => {
   res.status(200).json({
     api: "available"
